@@ -51,9 +51,9 @@ Sprite.prototype.draw = function(ctx, x, y) {
 function initSprites(img) {
 
 	s_bird = [
-		new Sprite(img, 0, 203, 90, 95),
-		new Sprite(img, 90, 203, 90, 95),
-		new Sprite(img, 180, 203, 90, 95)
+		new Sprite(img, 0, 207, 90, 95),
+		new Sprite(img, 90, 207, 90, 95),
+		new Sprite(img, 180, 207, 90, 95)
 	];
 	
 	s_bg = new Sprite(img,   0, 0, 138, 114);
